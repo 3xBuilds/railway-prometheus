@@ -23,7 +23,7 @@ scrape_configs:
     static_configs:
       - targets: ['demo.do.prometheus.io:9090']
 
-   - job_name: xmtp-agent
+  - job_name: xmtp-agent
     scrape_interval: 15s
     static_configs:
       - targets: ['lilbill-production.up.railway.app:8080'] 
